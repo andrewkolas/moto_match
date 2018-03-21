@@ -10,7 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180318145559) do
+ActiveRecord::Schema.define(version: 20180321000254) do
+
+  create_table "categories", force: :cascade do |t|
+    t.string "name"
+    t.boolean "street_legal"
+    t.boolean "offroad_capable"
+    t.float "distance_comfort_rating"
+    t.float "speed_rating"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "motorcycles", force: :cascade do |t|
     t.string "make"
@@ -22,10 +32,10 @@ ActiveRecord::Schema.define(version: 20180318145559) do
     t.boolean "automatic"
     t.float "price"
     t.boolean "passenger_seat"
-    t.float "top_speed"
     t.float "cargo_capacity"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "category_id"
   end
 
 end

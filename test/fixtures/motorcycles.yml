@@ -1,9 +1,91 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  make: MyString
-  model: MyString
+  make: Honda
+  model: CB300F
+  year: 2018
+  displacement: 286
+  seat_height: 30.7
+  weight: 348
+  automatic: false
+  price: 4349
+  passenger_seat: yes
+  cargo_capacity: 0
+  category: standard
 
 two:
-  make: MyString
-  model: MyString
+  make: Honda
+  model: NM4
+  year: 2018
+  displacement: 670
+  seat_height: 25.6
+  weight: 562
+  automatic: true
+  price: 11299
+  passenger_seat: yes
+  category: cruiser
+
+three:
+  make: Honda
+  model: CBR300R
+  year: 2018
+  displacement: 286
+  seat_height: 30.7
+  weight: 357
+  automatic: false
+  price: 4699
+  passenger_seat: yes
+  cargo_capacity: 0
+  category: sport
+
+four:
+  make: Honda
+  model: Africa Twin
+  year: 2017
+  displacement: 998
+  seat_height: 34.3
+  weight: 511
+  automatic: false
+  price: 13299
+  passenger_seat: yes
+  cargo_capacity: 0
+  category: adventure
+
+five:
+  make: Honda
+  model: CRF250L
+  year: 2017
+  displacement: 249.6
+  seat_height: 34.4
+  weight: 317
+  automatic: false
+  price: 5149
+  passenger_seat: yes
+  cargo_capacity: 0
+  category: dual_sport
+
+six:
+  make: Honda
+  model: Gold Wing Tour Automatic DCT
+  year: 2018
+  displacement: 1833
+  seat_height: 29.3
+  weight: 833
+  automatic: true
+  price: 27700
+  passenger_seat: yes
+  cargo_capacity: 50
+  category: touring
+
+seven:
+  make: Honda
+  model: NC700X
+  year: 2017
+  displacement: 670
+  seat_height: 32.7
+  weight: 474
+  automatic: false
+  price: 7699
+  passenger_seat: yes
+  cargo_capacity: 22
+  category: sport_touring

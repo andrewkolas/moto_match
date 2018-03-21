@@ -1,0 +1,50 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+standard:
+  name: Standard
+  street_legal: true
+  offroad_capable: false
+  distance_comfort_rating: .5
+  speed_rating: .8
+
+sport:
+  name: Sport
+  street_legal: true
+  offroad_capable: false
+  distance_comfort_rating: .3
+  speed_rating: 1
+
+touring:
+  name: Touring
+  street_legal: true
+  offroad_capable: false
+  distance_comfort_rating: 1
+  speed_rating: .5
+
+cruiser:
+  name: Cruiser
+  street_legal: true
+  offroad_capable: false
+  distance_comfort_rating: .8
+  speed_rating: .3
+
+sport_touring:
+  name: Sport Touring
+  street_legal: true
+  offroad_capable: false
+  distance_comfort_rating: .8
+  speed_rating: .7
+
+adventure:
+  name: Adventure
+  street_legal: true
+  offroad_capable: true
+  distance_comfort_rating: .6
+  speed_rating: .6
+
+dual_sport:
+  name: Dual Sport
+  street_legal: true
+  offroad_capable: true
+  distance_comfort_rating: .2
+  speed_rating: .5
